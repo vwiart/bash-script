@@ -16,5 +16,6 @@ function setupUser() {
 	passwd vwiart
 }
 
+passwd
 initsys
 setupUser
