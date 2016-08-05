@@ -6,7 +6,7 @@ function initsys() {
 	apt-get dist-upgrade -y
 	apt-get clean
 	apt-get autoremove
-	apt-get install -y --no-install-recommends curl git apt-transport-https ca-certificates zsh sudo
+	apt-get install -y --no-install-recommends curl git apt-transport-https ca-certificates zsh sudo tmux
 }
 
 function setupUser() {
